@@ -9,11 +9,10 @@ We implement Linear Regression from scratch in this repository. We're essentiall
 Our model can be written by the below equation. Here, $\hat{y}$ is our model's prediction $x$ is our input, $w$ is the weight/slope (e.g., how strongly $x$ influences $\hat{y}$), $b$ is the bias term. (1) is the single example version, while (2) is the whole dataset version.
 
 ```math
-\hat{y} = wx + b \tag{1}
-```
-
-```math
-y_{\text{pred}} = wX + b \tag{2}
+\begin{align}
+\hat{y} &= wx + b \tag{1} \\
+y_{\text{pred}} &= wX + b \tag{2}
+\end{align}
 ```
 
 When training, we aim to minimize the MSE (Mean Squared Error) between our predicted values, $\hat{y}$, and actual values $y$. This will be our **cost/loss function**.*
