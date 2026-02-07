@@ -9,11 +9,11 @@ We implement Linear Regression from scratch in this repository. We're essentiall
 Our model can be written by the below equation. Here, $\hat{y}$ is our model's prediction $x$ is our input, $w$ is the weight/slope (e.g., how strongly $x$ influences $\hat{y}$), $b$ is the bias term. (1) is the single example version, while (2) is the whole dataset version.
 
 ```math
-\hat{y} = wx + b
+\hat{y} = wx + b \quad \text{(1)}
 ```
 
 ```math
-y_{\text{pred}} = wX + b
+y_{\text{pred}} = wX + b \quad \text{(2)}
 ```
 
 When training, we aim to minimize the MSE (Mean Squared Error) between our predicted values, $\hat{y}$, and actual values $y$. This will be our **cost/loss function**.*
@@ -55,6 +55,6 @@ J'(w,b) = \begin{bmatrix}\frac{\partial J}{\partial w} \\ \frac{\partial J}{\par
 
 # Resources
 - Complete Step-by-Step Gradient Descent Algorithm from Scratch: https://towardsdatascience.com/complete-step-by-step-gradient-descent-algorithm-from-scratch-acba013e8420
-- LaTex formatting with ChatGPT 🤣: https://chatgpt.com/share/69820d01-2458-800e-89b5-33af1b89c350
+- LaTex guide on GitHub: https://en.wikibooks.org/wiki/LaTeX/Mathematics#List_of_mathematical_symbols
 - How to implement Linear Regression from scratch with Python: https://youtu.be/ltXSoduiVwY?si=d-bKjJua0XVSVtg2
 - Regularization in Machine Learning: https://www.geeksforgeeks.org/machine-learning/regularization-in-machine-learning/
